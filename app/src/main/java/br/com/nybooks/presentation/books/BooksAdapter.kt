@@ -25,6 +25,7 @@ class BooksAdapter(
     override fun onBindViewHolder(viewHolder: BooksViewHolder, position: Int) {
         viewHolder.bindView(booksList[position])
 
+
     }
 
     class BooksViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
